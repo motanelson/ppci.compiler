@@ -50,7 +50,7 @@ def compile_c_to_binary():
         
         # Etapa 3: Conversão para binário
         print("Convertendo para binário...")
-        
+        objcopy(objs,"code", 'bin',binary_file)
         
         
        
